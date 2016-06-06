@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webConfig>
+    <configs>
+        <modules>
+            <module>
+                <name>getFrdLinks1</name>
+                <sql><![CDATA[
+                select * from friendlinks order by id desc limit 0,10
+        ]]>
+                </sql>
+                <className>pageUtil</className>
+                <description>获取首页友情链接数组</description>
+                <resultType>array</resultType>
+            </module>
+
+            <!--<module>-->
+                <!--<name>getFrdLinks2</name>-->
+                <!--<sql><![CDATA[-->
+                <!--select * from friendlinks order by id limit 0,10-->
+        <!--]]>-->
+                <!--</sql>-->
+                <!--<sql><![CDATA[-->
+                <!--insert-->
+        <!--]]>-->
+                <!--</sql>-->
+                <!--<className>pageUtil</className>-->
+                <!--<description>获取首页友情链接数组2</description>-->
+                <!--<resultType>array</resultType>-->
+            <!--</module>-->
+
+        </modules>
+    </configs>
+</webConfig>

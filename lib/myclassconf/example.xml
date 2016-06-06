@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webConfig>
+  <configs>
+    <modules>
+     <module>
+        <name></name>
+        <sql><![CDATA[ 
+         
+        ]]>
+        </sql>
+        <className></className>
+        <description></description>
+        <resultType></resultType>
+       </module>
+        
+    </modules>
+  </configs>
+</webConfig>
